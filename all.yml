@@ -9,6 +9,7 @@
     folders:
     - path: ~/
     - path: ~/Documents
+    - path: ~/src/github.com
     - path: ~/Downloads
       sort: datemodified
   - role: dashboard
@@ -67,6 +68,8 @@
     package_name: fasd
   - role: brew_package
     package_name: ssh-copy-id
+  - role: spf13_vim
+
   ## databases
   - role: brew_package
     package_name: postgres
