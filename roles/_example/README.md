@@ -19,6 +19,8 @@ roles/example/<br />
 ├── README.md (this file)<br />
 └── defaults<br />
 │&nbsp;&nbsp;&nbsp;└── main.yml<br />
+└── handlers<br />
+│&nbsp;&nbsp;&nbsp;└── main.yml<br />
 ├── meta<br />
 │&nbsp;&nbsp;&nbsp;└── main.yml<br />
 ├── tasks<br />
@@ -28,6 +30,7 @@ roles/example/<br />
 </code>
 
 - **defaults** \- this is where default values for variables go
+- **handlers** \- this is where we put things that need to run on when something else changes
 - **meta** \- if a role depends upon another role, it goes here
 - **tasks** \- this is where the action happens
 - **vars** \- this is where a roles variables go
